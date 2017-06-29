@@ -13,7 +13,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LabelAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -58,9 +57,10 @@
                     <connections>
                         <outlet property="bottomLabel" destination="u8I-0E-VAF" id="KS7-v8-Wye"/>
                         <outlet property="middleLabel" destination="R1G-Ql-epj" id="hy2-fa-Rn7"/>
-                        <outlet property="topLabel" destination="Nyc-ig-FAU" id="SbX-gt-kSz"/>
+                        <outlet property="topLabel" destination="Nyc-ig-FAU" id="D4k-Zu-h8r"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
         </scene>

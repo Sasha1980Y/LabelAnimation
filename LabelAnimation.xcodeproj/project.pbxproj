@@ -13,7 +13,7 @@
 		7F0594351F0381D700DE7B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0594341F0381D700DE7B08 /* Assets.xcassets */; };
 		7F0594381F0381D700DE7B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0594361F0381D700DE7B08 /* LaunchScreen.storyboard */; };
 		7F0594401F0389C300DE7B08 /* ViewWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05943F1F0389C300DE7B08 /* ViewWithLabel.swift */; };
-		7F0594421F03D83B00DE7B08 /* ButtonWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0594411F03D83B00DE7B08 /* ButtonWithAnimation.swift */; };
+		7F0594441F03DC5A00DE7B08 /* LabelForAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0594431F03DC5A00DE7B08 /* LabelForAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		7F0594371F0381D700DE7B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0594391F0381D700DE7B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F05943F1F0389C300DE7B08 /* ViewWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithLabel.swift; sourceTree = "<group>"; };
-		7F0594411F03D83B00DE7B08 /* ButtonWithAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithAnimation.swift; sourceTree = "<group>"; };
+		7F0594431F03DC5A00DE7B08 /* LabelForAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelForAnimation.swift; path = ../LabelForAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				7F05942D1F0381D700DE7B08 /* AppDelegate.swift */,
 				7F05942F1F0381D700DE7B08 /* ViewController.swift */,
 				7F05943F1F0389C300DE7B08 /* ViewWithLabel.swift */,
-				7F0594411F03D83B00DE7B08 /* ButtonWithAnimation.swift */,
+				7F0594431F03DC5A00DE7B08 /* LabelForAnimation.swift */,
 				7F0594311F0381D700DE7B08 /* Main.storyboard */,
 				7F0594341F0381D700DE7B08 /* Assets.xcassets */,
 				7F0594361F0381D700DE7B08 /* LaunchScreen.storyboard */,
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F0594421F03D83B00DE7B08 /* ButtonWithAnimation.swift in Sources */,
 				7F0594301F0381D700DE7B08 /* ViewController.swift in Sources */,
+				7F0594441F03DC5A00DE7B08 /* LabelForAnimation.swift in Sources */,
 				7F05942E1F0381D700DE7B08 /* AppDelegate.swift in Sources */,
 				7F0594401F0389C300DE7B08 /* ViewWithLabel.swift in Sources */,
 			);
