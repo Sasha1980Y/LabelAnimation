@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = true
         
+        // new code
+        let newLabel = LabelForAnimation()
+        view.addSubview(newLabel)
+        newLabel.text = text
+        
+        
+                
+        // old code
         topLabel.backgroundColor = UIColor.blue
         middleLabel.backgroundColor = UIColor.green
         bottomLabel.backgroundColor = UIColor.cyan
@@ -52,6 +60,10 @@ class ViewController: UIViewController {
         bottomLabel.addGestureRecognizer(tapBottom)
         
     }
+    
+    
+    
+    
     // not necessary
     override func viewWillAppear(_ animated: Bool) {
         UIView.animate(withDuration: 0.33, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 10.0, options: .curveEaseOut, animations: {
@@ -61,11 +73,14 @@ class ViewController: UIViewController {
     
     func tap(sender: UITapGestureRecognizer) {
         
+        
+        
+        
         guard let caseTage = sender.view?.tag else {return}
         switch caseTage {
-        case 1001: topLabel.replaceNumberOfLines()
-        case 1002: middleLabel.replaceNumberOfLines()
-        case 1003: bottomLabel.replaceNumberOfLines()
+        case 1001: topLabel.replaceNumberOfLinesForView()
+        case 1002: middleLabel.replaceNumberOfLinesForView()
+        case 1003: bottomLabel.replaceNumberOfLinesForView()
             
         default:
             return
@@ -74,8 +89,9 @@ class ViewController: UIViewController {
         
     }
 }
+
 extension UILabel {
-    func replaceNumberOfLines() {
+    func replaceNumberOfLinesForView() {
         if numberOfLines == 0 {
             numberOfLines = 1
         } else {
@@ -83,6 +99,7 @@ extension UILabel {
         }
     }
 }
+
 extension UIView {
     func anim() {
         UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10.0, options: .curveEaseOut, animations: {
